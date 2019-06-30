@@ -2,3 +2,6 @@ select * from emp;
 select * from dept where deptno=30;
 select * from emp where sal > 3000;
 select * from emp where sal between 3000 and 4000;
+//**********
+select * from emp where emp_name = 'King';
+//**************
